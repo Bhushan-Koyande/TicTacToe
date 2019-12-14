@@ -149,6 +149,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void showToast(String str){
-        StyleableToast.makeText(this,str,R.style.MaterialAlertDialog_MaterialComponents_Title_Icon);
+        Toast.makeText(this,str,Toast.LENGTH_SHORT).show();
     }
 }
